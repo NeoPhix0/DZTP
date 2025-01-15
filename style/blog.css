@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dde3eb;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 30px 10px 30px 10px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #c6d5dd;
+}
+
+.blog-section {
+    background-color: #c6d5dd;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 20px 50px;
+}
+
+.affiches {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.affiches img {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.affiches div {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    gap: 30px;
+}
+
+.affiches div h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    background-color: #dde3eb;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
