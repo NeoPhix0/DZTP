@@ -39,6 +39,23 @@ p, li {
     padding: 20px;
 }
 
+.back-btn {
+    color: black;
+    background-color: #99adb7;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-weight: 700;
+    transition: background-color 0.25s ease-out;
+}
+
+.back-btn:hover {
+    background-color: #71828a;
+}
+
 .photo-btn {
     display: flex;
     flex-direction: column;
@@ -79,7 +96,7 @@ main {
     background-color: #99adb7;
     text-decoration: none;
     padding: 15px 50px;
-    margin-top: 40px;
+    margin-top: 15px;
     border-radius: 50px;
     font-size: 1.2em;
     font-weight: 700;
