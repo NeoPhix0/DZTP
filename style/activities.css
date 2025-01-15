@@ -9,14 +9,24 @@ body {
     background-color: #c5dbe7;
 }
 
-h1 {
-    text-align: center;
-    font-size: 3.5em;
+.title {
+    background-color: #c6d5dd;
+    border-radius: 30px;
     margin: 20px 10px;
     padding: 10px;
-    border-radius: 50px;
-    background-color: #bdd3df;
-    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-right: 180px;
+    border-radius: 30px;
+    /* padding: 10px; */
+    text-align: center;
+    /* background-color: #c6d5dd; */
+    /* width: 100%; */
 }
 
 h2 {
@@ -40,23 +50,25 @@ p, li {
 }
 
 .back-btn {
+    align-self: flex-start;
     color: black;
     background-color: #99adb7;
     text-decoration: none;
     padding: 15px 20px;
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-top: 5px;
     border-radius: 50px;
     font-size: 1.2em;
     font-weight: 700;
     transition: background-color 0.25s ease-out;
+    /* margin: 10px; */
 }
 
 .back-btn:hover {
     background-color: #71828a;
 }
 
-.photo-btn {
+.photo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +108,7 @@ main {
     background-color: #99adb7;
     text-decoration: none;
     padding: 15px 50px;
-    margin-top: 15px;
+    /* margin: 40px 30px; */
     border-radius: 50px;
     font-size: 1.2em;
     font-weight: 700;
@@ -105,4 +117,9 @@ main {
 
 .btn:hover {
     background-color: #71828a;
+}
+
+.container-btn {
+    position: absolute;
+    bottom: 0;
 }
